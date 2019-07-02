@@ -55,7 +55,7 @@ The environment can be downloaded from one of the links below for all operating 
 + `checkpoint_actor.pth` and `checkpoint_critic.pth` - files that with saved DNN’s weights, that solved the environment.
 
 ### Project Approach
-The notebook Continuous_Control.ipynb contains the code to set up the environment and the outer episode iteration to solve the reinforcement problem. Our solution uses a **Deep Deterministic Policy Gradient** approach (only standard feedforward layers) with experience replay, see this [paper](https://arxiv.org/pdf/1509.02971.pdf).
+The notebook Continuous_Control.ipynb contains the code to set up the environment and the outer episode iteration to solve the reinforcement problem. Our solution uses a **Deep Deterministic Policy Gradient (DDPG)** approach (only standard feedforward layers) with experience replay, see this [paper](https://arxiv.org/pdf/1509.02971.pdf).
 
 
 
