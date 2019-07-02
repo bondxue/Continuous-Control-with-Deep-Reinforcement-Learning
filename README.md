@@ -32,7 +32,7 @@ This poroject can be done with separated version of the Unity environment.
 
 + **Multi-Agents Version:** It contains 20 identical agents. 
 
-In this project, I choose version 1 with a single agent. The environment is considered solved, when  the agent must get an **average score** of *+30* over 100 consecutive episodes. 
+In this project, I choose version 1 with a **single agent**. The environment is considered solved, when  the agent must get an **average score** of *+30* over 100 consecutive episodes. 
 
 ### Environment Setting
 
@@ -53,6 +53,9 @@ The environment can be downloaded from one of the links below for all operating 
 + `ddpg_agent.py` - file that contains the characteristics of the agent and how it behaves through this task
 + `model.py` - file that contains the deep neural networks (DNN) architectures used by the agent
 + `checkpoint_actor.pth` and `checkpoint_critic.pth` - files that with saved DNN’s weights, that solved the environment.
+
+### Project Approach
+The notebook Continuous_Control.ipynb contains the code to set up the environment and the outer episode iteration to solve the reinforcement problem. Our solution uses a **Deep Deterministic Policy Gradient** approach (only standard feedforward layers) with experience replay, see this [paper](https://arxiv.org/pdf/1509.02971.pdf).
 
 
 
